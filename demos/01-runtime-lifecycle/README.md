@@ -22,6 +22,19 @@
 
 以上变量通过 Docker 注入控制面，并由 SDK 启动的 dsh Runtime 子进程继承。
 
+## 代码文件清单
+
+- `src/server.ts`：创建 Fastify 控制面，读取 dsh 配置，暴露 Runtime 生命周期接口，并处理进程退出信号。
+- `src/runtime-manager.ts`：封装 `DeepSeekHarness` 的启动、复用、停止、失败清理和状态转换。
+- `tests/runtime-manager.test.ts`：验证启动幂等、停止幂等、重新启动、多 Manager 并存和初始化失败清理。
+- `Makefile`：统一封装安装、测试、构建、容器启停、Runtime 操作和冒烟测试。
+- `Dockerfile`：构建非 root、只读文件系统兼容的控制面与 dsh Runtime 镜像。
+- `.env.example`：声明 DeepSeek 地址、凭据、Provider、模型和初始化超时。
+- `package.json`：声明运行脚本及 SDK、Runtime、Fastify 等依赖。
+- `pnpm-lock.yaml`：固定完整依赖版本和完整性。
+- `pnpm-workspace.yaml`：声明依赖构建许可和预览版安装策略。
+- `tsconfig.json`：启用严格 TypeScript 编译并输出生产代码。
+
 ## 核心代码
 
 ### 创建 Runtime

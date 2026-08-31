@@ -45,9 +45,9 @@ SDK 通过 stdio JSON-RPC 启动并管理完整 dsh Runtime，可创建会话、
 ## Demo 清单
 
 - [x] `01-runtime-lifecycle`：启动、健康检查、复用和关闭 dsh Runtime。
-- [ ] `02-task-execution`：通过 SDK 提交 Prompt 并获取最终结果。
-- [ ] `03-event-stream`：实时展示 Agent、模型、工具和通知事件。
-- [ ] `04-session-management`：创建、继续、终止和查询会话。
+- [x] `02-task-execution`：通过 SDK 提交 Prompt 并获取最终结果。
+- [x] `03-event-stream`：实时展示 Agent、模型、工具和通知事件。
+- [x] `04-session-management`：创建、继续、终止和查询会话。
 - [ ] `05-model-provider`：配置并切换模型 Provider。
 - [ ] `06-cordis-composition`：加载并切换 `cordis.yml` 能力组合。
 - [ ] `07-plugin-lifecycle`：开发插件并验证注册、依赖注入、启停和卸载。
@@ -103,9 +103,11 @@ dsh-demos/
 
 - 独立源码、依赖、lockfile、配置、测试、README、Makefile 和 Dockerfile。
 - 不共享代码、容器、网络、Volume 或运行状态。
+- 每个 Demo 使用独立容器名和默认宿主机端口，允许同时运行。
 - dsh SDK 与 Runtime 锁定相同版本。
 - README 只暴露 Make 命令，不直接要求执行 pnpm、docker 或 curl。
 - README 中每条执行命令都必须用行尾注释说明用途。
+- README 必须列出项目文件，并说明每个文件的职责。
 - README 必须包含主题核心代码片段及其职责说明。
 - Makefile 至少提供 `configure`、`install`、`verify`、`image`、`run` 和 `smoke`。
 - Docker 使用非 root、只读文件系统、最小权限和资源限制。

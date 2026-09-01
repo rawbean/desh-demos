@@ -1,0 +1,5 @@
+- id: system-prompt
+  name: "@deepseek-ai/dsh-system-prompt"
+  config:
+    persona: >-
+      PLUGIN_LIFECYCLE=observer. Observe the request and answer directly.

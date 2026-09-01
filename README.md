@@ -48,20 +48,20 @@ SDK 通过 stdio JSON-RPC 启动并管理完整 dsh Runtime，可创建会话、
 - [x] `02-task-execution`：通过 SDK 提交 Prompt 并获取最终结果。
 - [x] `03-event-stream`：实时展示 Agent、模型、工具和通知事件。
 - [x] `04-session-management`：创建、继续、终止和查询会话。
-- [ ] `05-model-provider`：配置并切换模型 Provider。
-- [ ] `06-cordis-composition`：加载并切换 `cordis.yml` 能力组合。
-- [ ] `07-plugin-lifecycle`：开发插件并验证注册、依赖注入、启停和卸载。
-- [ ] `08-custom-service`：通过 Cordis `ctx` 提供和消费自定义 Service。
-- [ ] `09-plugin-events`：监听和拦截 Agent、LLM、Tool 事件。
-- [ ] `10-custom-tool`：通过插件注册模型可调用的 Tool。
-- [ ] `11-custom-model-adapter`：通过插件接入自定义模型 Provider。
-- [ ] `12-workspace-sandbox`：隔离工作区、文件、Shell、网络和资源。
-- [ ] `13-human-approval`：审批或拒绝高风险工具调用。
-- [ ] `14-skill-loading`：加载本地 Skill 并验证指令与资源注入。
-- [ ] `15-mcp-integration`：发现并调用独立 MCP Server 的工具。
-- [ ] `16-task-scheduling`：实现队列、并发限制、取消、超时和重试。
-- [ ] `17-observability`：记录状态、事件、耗时、Token 和错误。
-- [ ] `18-runtime-recovery`：验证 Runtime 崩溃重启和会话恢复。
+- [x] `05-model-provider`：配置并切换模型 Provider。
+- [x] `06-cordis-composition`：加载并切换 `cordis.yml` 能力组合。
+- [x] `07-plugin-lifecycle`：开发插件并验证注册、依赖注入、启停和卸载。
+- [x] `08-custom-service`：通过 Cordis `ctx` 提供和消费自定义 Service。
+- [x] `09-plugin-events`：监听和拦截 Agent、LLM、Tool 事件。
+- [x] `10-custom-tool`：通过插件注册模型可调用的 Tool。
+- [x] `11-custom-model-adapter`：通过插件接入自定义模型 Provider。
+- [x] `12-workspace-sandbox`：隔离工作区、文件、Shell、网络和资源。
+- [x] `13-human-approval`：审批或拒绝高风险工具调用。
+- [x] `14-skill-loading`：加载本地 Skill 并验证指令与资源注入。
+- [x] `15-mcp-integration`：发现并调用独立 MCP Server 的工具。
+- [x] `16-task-scheduling`：实现队列、并发限制、取消、超时和重试。
+- [x] `17-observability`：记录状态、事件、耗时、Token 和错误。
+- [x] `18-runtime-recovery`：验证 Runtime 崩溃重启和会话恢复。
 
 ## 目录
 

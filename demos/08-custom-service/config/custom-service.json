@@ -1,0 +1,4 @@
+{
+  "prefix": "Hello from injected Cordis",
+  "providerInstance": "cordis-custom-greeting-v1"
+}

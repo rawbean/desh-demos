@@ -1,0 +1,7 @@
+.dsh-home
+.dsh-test-*
+.env
+coverage
+dist
+node_modules
+pnpm-lock.yaml

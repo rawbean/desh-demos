@@ -1,0 +1,19 @@
+- insert:
+    - id: demo-stdio-mcp-client
+      name: "@deepseek-ai/dsh-mcp-client"
+      config:
+        transport: stdio
+        serverName: demo
+        command: __NODE_COMMAND__
+        args:
+          - __MCP_SERVER_PATH__
+        env:
+          DSH_MCP_EVENT_FILE: __MCP_EVENT_FILE__
+        cwd: __MCP_CWD__
+        toolCallTimeoutMs: 5000
+        failOnStartupError: true
+        reconnect:
+          enabled: false
+          initialDelayMs: 100
+          maxDelayMs: 100
+          maxAttempts: 1

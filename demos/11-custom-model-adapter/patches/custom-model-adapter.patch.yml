@@ -1,0 +1,3 @@
+- insert:
+    - id: demo-custom-model-adapter
+      name: ../plugins/custom-model-adapter/index.js

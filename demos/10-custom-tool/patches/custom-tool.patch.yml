@@ -1,0 +1,3 @@
+- insert:
+    - id: deterministic-custom-tool
+      name: __CUSTOM_TOOL_URL__

@@ -1,0 +1,7 @@
+{
+  "id": "planner",
+  "description": "Planning persona with serialized todo capability",
+  "profile": "sdk",
+  "patches": ["patches/planner.patch.yml"],
+  "capabilities": ["planning-persona", "serialized-todo-tool"]
+}

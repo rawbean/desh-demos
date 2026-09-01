@@ -1,0 +1,6 @@
+.env
+.git
+.dsh-test-*
+dist
+node_modules
+coverage

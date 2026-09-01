@@ -1,0 +1,3 @@
+- insert:
+    - id: demo-plugin-event-probe
+      name: ../plugins/event-probe/index.js

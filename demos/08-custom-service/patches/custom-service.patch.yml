@@ -1,0 +1,8 @@
+- insert:
+    - id: custom-service-provider
+      name: __PROVIDER_URL__
+      config:
+        prefix: __PREFIX__
+        providerInstance: __PROVIDER_INSTANCE__
+    - id: custom-service-consumer
+      name: __CONSUMER_URL__

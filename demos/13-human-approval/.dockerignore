@@ -1,0 +1,8 @@
+node_modules
+dist
+.env
+.dsh-test-*
+tests
+README.md
+.git
+.gitignore

@@ -1,0 +1,3 @@
+- insert:
+    - id: deterministic-human-approval
+      name: __HUMAN_APPROVAL_PLUGIN_URL__

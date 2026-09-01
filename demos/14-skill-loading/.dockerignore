@@ -1,0 +1,5 @@
+.env
+.dsh-test-*
+dist
+node_modules
+coverage

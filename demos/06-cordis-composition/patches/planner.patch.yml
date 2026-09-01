@@ -1,0 +1,10 @@
+- id: system-prompt
+  name: "@deepseek-ai/dsh-system-prompt"
+  config:
+    persona: >-
+      CORDIS_PROFILE=planner. Break work into explicit steps and expose todo support.
+- id: tool-todo
+  name: "@deepseek-ai/dsh-tool-todo"
+  disabled: false
+  config:
+    allowParallelInProgress: false

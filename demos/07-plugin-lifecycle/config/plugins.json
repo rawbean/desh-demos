@@ -1,0 +1,12 @@
+[
+  {
+    "id": "observer",
+    "description": "Observe prompts through an injected local probe service",
+    "patch": "patches/observer.patch.yml"
+  },
+  {
+    "id": "enforcer",
+    "description": "Enforce prompt constraints through an injected local probe service",
+    "patch": "patches/enforcer.patch.yml"
+  }
+]

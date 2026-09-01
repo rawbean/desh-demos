@@ -1,0 +1,7 @@
+- id: skill-filesystem
+  name: "@deepseek-ai/dsh-skill-filesystem"
+  config:
+    includeDefaultRoots: false
+    customSkillDirs:
+      - __SKILL_ROOT__
+    watch: false

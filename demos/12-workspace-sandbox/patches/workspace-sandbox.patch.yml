@@ -1,0 +1,3 @@
+- insert:
+    - id: workspace-capability-deny
+      name: __CAPABILITY_DENY_URL__

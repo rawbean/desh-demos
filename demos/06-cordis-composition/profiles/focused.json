@@ -1,0 +1,7 @@
+{
+  "id": "focused",
+  "description": "Direct persona with todo capability removed",
+  "profile": "sdk",
+  "patches": ["patches/focused.patch.yml"],
+  "capabilities": ["focused-persona", "no-todo-tool"]
+}
